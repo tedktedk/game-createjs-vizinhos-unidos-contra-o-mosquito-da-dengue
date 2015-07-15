@@ -1,0 +1,58 @@
+﻿<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta http-equiv="cache-control" content="no-cache" />
+    <meta http-equiv="expires" content="-1" />
+    <meta http-equiv="pragma" content="no-cache" />
+    <meta http-equiv="content-language" content="pt-br" />
+    <meta name="title" content="Vizinhos Unidos Contra a Dengue" />
+    <meta name="description" content="Compartilhe você também essa campanha: Vizinhos Unidos Contra a Dengue" />
+    <meta name="keywords" content="dengue, zika, virus, chikungunya, saúde, bahia, governo, salvador, cuidados" />
+    <meta name="author" content="Governo da Bahia" />
+    <meta name="copyright" content="Governo da Bahia" />
+
+    <meta property="og:title" content="Game Vizinhos Unidos Contra a Dengue" />
+    <meta property="og:url" content="https://apps.facebook.com/unidos-contra-dengue/" />
+    <meta property="og:image" content="https://ssl-184836.kinghost.net/projeto/games-facebook/vizinhos-unidos-contra-a-dengue-2015/global/imgs/tela-01.jpg" />
+    <meta property="og:site_name" content="Vizinhos Unidos Contra a Dengue" />
+    <meta property="og:description" content="Compartilhe você também essa campanha: Vizinhos Unidos Contra a Dengue" />
+
+    <link type="text/css" rel="stylesheet" href="global/css/fontes.min.css">
+    <link type="text/css" rel="stylesheet" href="global/css/style.min.css">
+
+    <script type="text/javascript" src="global/js/createjs.js"></script>
+    <script type="text/javascript" src="global/js/geral.min.js"></script>
+    <script type="text/javascript" src="global/js/game.min.js"></script>
+    <script type="text/javascript" src="global/js/main.min.js"></script>
+    <title>Game Vizinhos Unidos Contra a Dengue</title>
+</head>
+<body onLoad="init()">
+	<div id="container">
+        <div class="marca-jogo">
+            <h1>Vizinhos unidos contra a dengue</h1>
+        </div>
+    	<canvas id="canvas" width="895" height="500">
+        	Sem suporte ao jogo!
+        </canvas>
+        <a href="#" class="marca-governo"><img src="global/imgs/marca-governo.png" style="width: 220px;" alt="Governo da Bahia"></a>
+    </div>
+    <script>
+    window.fbAsyncInit = function(){
+        FB.init({
+          appId      : '1612025679079373',
+          xfbml      : true,
+          version    : 'v2.3'
+        });
+    };
+
+    (function(d, s, id){
+     var js, fjs = d.getElementsByTagName(s)[0];
+     if (d.getElementById(id)) {return;}
+     js = d.createElement(s); js.id = id;
+     js.src = "//connect.facebook.net/en_US/sdk.js";
+     fjs.parentNode.insertBefore(js, fjs);
+    }(document, 'script', 'facebook-jssdk'));
+    </script>
+</body>
+</html>

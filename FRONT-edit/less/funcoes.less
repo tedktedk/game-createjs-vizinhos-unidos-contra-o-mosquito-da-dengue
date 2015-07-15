@@ -1,0 +1,68 @@
+.boxShadow(@x; @y; @blur; @border; @color){
+  -webkit-box-shadow: @x @y @blur @border @color;
+     -moz-box-shadow: @x @y @blur @border @color;
+          box-shadow: @x @y @blur @border @color;
+}
+
+.textShadow(@x; @y; @blur; @color){
+  -webkit-text-shadow: @x @y @blur @color;
+     -moz-text-shadow: @x @y @blur @color;
+          text-shadow: @x @y @blur @color;
+}
+
+.borderRadius(@valor){
+  -webkit-border-radius: @valor;
+     -moz-border-radius: @valor;
+          border-radius: @valor;
+}
+
+.rotate(@valor){
+  -ms-transform: rotate(@valor);
+      -webkit-transform: rotate(@valor);
+        transform: rotate(@valor);
+}
+
+.zoomImagemEase(@valor){
+  -webkit-transition: @valor ease-in-out;
+     -moz-transition: @valor ease-in-out;
+       -o-transition: @valor ease-in-out;
+          transition: @valor ease-in-out;
+}
+
+.zoomImagemScale(@valor){
+  -webkit-transform: scale(@valor);
+     -moz-transform: scale(@valor);
+       -o-transform: scale(@valor);
+          transform: scale(@valor);
+}
+
+.opacidade(@valor1; @valor2){
+  -khtml-opacity: @valor1;
+    -moz-opacity: @valor1;
+      -ms-filter: "progid:DXImageTransform.Microsoft.Alpha(Opacity=@valor2)";
+         opacity: @valor1;
+          filter: alpha(opacity=@valor2);
+}
+
+.gerarFonte(@nome; @arquivo){
+  @font-face {
+      font-family: @nome;
+      src: url("../fonts/@{arquivo}.eot");
+      src: url("../fonts/@{arquivo}.eot?#iefix") format("embedded-opentype"),
+           url("../fonts/@{arquivo}.woff") format("woff"),
+           url("../fonts/@{arquivo}.ttf") format("truetype"),
+           url("../fonts/@{arquivo}.svg#@nome") format("svg");
+      font-weight: normal;
+      font-style: normal;
+  }
+}
+
+.containerFloat(){
+  float: left;
+  width: 100%;
+}
+
+.fonte(@tipo; @cor){
+  font: @tipo;
+  color: @cor;
+}
