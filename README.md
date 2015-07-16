@@ -5,7 +5,7 @@
 
 Desenvolvido em JavaScript/HTML5 Canvas, usando [CreateJS](http://www.createjs.com/) e suas libraries.
 
-Os arquivos que se encontram na pasta "/FRONT-edit/" são arquivos originais de JavaScripts/CSS e os da pasta "/global/js/" e "global/css/" são arquivos com compressão.
+Os arquivos que se encontram na pasta "/FRONT-edit/" são arquivos JavaScript/LESS originais e os da pasta "/global/js/" e "global/css/" são arquivos processados/comprimidos.
 
 Algumas características do projeto:
 
@@ -13,20 +13,20 @@ Algumas características do projeto:
  * Uso do site [TinyPNG](https://tinypng.com/) para fazer a compressão das imagens
 
 <br>
-GAME ONLINE: [https://apps.facebook.com/unidos-contra-dengue/](https://apps.facebook.com/unidos-contra-dengue/)
+LINK DO JOGO: [https://apps.facebook.com/unidos-contra-dengue/](https://apps.facebook.com/unidos-contra-dengue/)
 
 
 <br><br>
 ### EN
 
-Developed in JavaScript/HTML5 Canvas, using CreateJS and modular libraries.
+Developed in JavaScript/HTML5 Canvas, using  [CreateJS](http://www.createjs.com/) and its libraries.
 
-The files are in the folder "/FRONT-edit/" are original file JavaScripts/CSS and the folder "/global/js/" and "global/css/" are compression with files.
+The files in the "/FRONT-edit/" folder are the original JavaScript/LESS files, and the folders "/global/js/" and "global/css/" have the processed/compressed files.
 
-Some features:
+Additional characteristics:
 
-* LESS as CSS preprocessor
-* Using TinyPNG site to make images of compression
+ * [LESS](http://lesscss.org/) as CSS preprocessor
+ * Used [TinyPNG](https://tinypng.com/) for image compression
 
 <br>
-GAME ONLINE: [https://apps.facebook.com/unidos-contra-dengue/](https://apps.facebook.com/unidos-contra-dengue/)
+GAME LINK: [https://apps.facebook.com/unidos-contra-dengue/](https://apps.facebook.com/unidos-contra-dengue/)
